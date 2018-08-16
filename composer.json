@@ -1,0 +1,20 @@
+{
+  "name": "trubinen/strategy",
+  "description": "Simple strategy pattern",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "TrubinEN",
+      "email": "onlajn@bk.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "TrubinEN\\": "src"
+    }
+  }
+}
