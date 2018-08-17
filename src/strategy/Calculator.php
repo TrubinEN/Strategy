@@ -23,7 +23,7 @@ class Calculator
      * @return PlusOperation
      * @throws \Exception
      */
-    private function getStrategy($operation): PlusOperation
+    private function getStrategy($operation): OperationInterface
     {
         switch ($operation) {
             case '+':

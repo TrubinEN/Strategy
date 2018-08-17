@@ -13,6 +13,6 @@ class SubsOperation implements OperationInterface
 {
     public function calc(int $a, int $b): int
     {
-        // TODO: Implement calc() method.
+        return floor($a - $b);
     }
 }

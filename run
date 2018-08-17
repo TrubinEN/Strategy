@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+use TrubinEN\Strategy\Calculator;
+
+require __DIR__ . '/vendor/autoload.php';
+
+$plus = new Calculator("+");
+$subs = new Calculator("-");
+$mult = new Calculator("*");
+$divs = new Calculator("/");
+$a = 4;
+$b = 7;
+echo $plus->calc($a, $b) . "\n" ;
+echo $subs->calc($a, $b) . "\n" ;
+echo $mult->calc($a, $b) . "\n" ;
+echo $divs->calc($a, $b) . "\n" ;
+
+
